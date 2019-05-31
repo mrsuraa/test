@@ -1,0 +1,227 @@
+    1  yum install -y git
+    2  yum remove -y git
+    3  yum remove git
+    4  yum install git
+    5  git --version
+    6  git --help
+    7  cd /
+    8  ls
+    9  mkdir mahesh
+   10  cd mahesh
+   11  ll -al
+   12  git init
+   13  ll -al
+   14  vi test.txt
+   15  git status
+   16  git add test.txt
+   17  git status
+   18  git commit -m "learning git"
+   19  git config --global user.name "Mahesh"
+   20  git config --global user.email "Mahesh"
+   21  git status
+   22  git ls
+   23  ls
+   24  git ls-files
+   25  vi teat1.txt
+   26  ls
+   27  git ls-files
+   28  git status
+   29  git add "test1.txt"
+   30  git add 'test1.txt'
+   31  git add test1.txt
+   32  git add teat1.txt
+   33  git ls
+   34  git commit -m "learning git1"
+   35  git -ls-files
+   36  git ls-files
+   37  git --help
+   38  git status
+   39  ls
+   40  vi test.txt
+   41  git status
+   42  git commit -a -m "change"
+   43  git status
+   44  git ls-files
+   45  git log
+   46  git log--oneline
+   47  git log --oneline
+   48  git show aa4ee8f
+   49  git log --oneline
+   50  git revert aa4ee8f
+   51  git status
+   52  ls
+   53  vi test.txt 
+   54  git staus
+   55  git -staus
+   56  vi teat1.txt
+   57  git log --oneline
+   58  git show aa4ee8f
+   59  git commit -a -m "change"
+   60  git status
+   61  git log --oneline
+   62  ls
+   63  rm -rf test.txt
+   64  ls
+   65  git ls-files
+   66  git status
+   67  git checkout test.txt
+   68  git status
+   69  git ls -files
+   70  git ls-files
+   71  ls
+   72  git rm test.txt
+   73  ls
+   74  git ls-files
+   75  git status
+   76  git commit -m "deleted file"
+   77  git status
+   78  mkdir Delete.txt
+   79  git ls-files
+   80  vi Delete.txt
+   81  rm Delete.txt
+   82  touch delete.txt
+   83  ls -ltr
+   84  rm -rf Delete.txt
+   85  ls -ltr
+   86  vi delete.txt
+   87  rm -rf delete.txt
+   88  git ls
+   89  git -ls-files
+   90  git -s-files
+   91  git ls-files
+   92  ll -al
+   93  touch delete.txt
+   94  git ls
+   95  git ls-files
+   96  ls
+   97  rm -rf delete.txt
+   98  ls
+   99  touch delete.txt
+  100  ls
+  101  git commit -a -m "file added"
+  102  git -m "added new file"
+  103  git commit -m "added new file"
+  104  git add delete.txt
+  105  git commit -m "added new file"
+  106  ls
+  107  git ls-files
+  108  rm -rf delete.txt
+  109  ls
+  110  git ls-files
+  111  git status
+  112  git commit -m "Deleted file"
+  113  git commit -a -m " Deleted file Exe"
+  114  git ls-files
+  115  git status
+  116  vi kush.txt
+  117  git add kush.txt
+  118  git commit -m "kush.txt"
+  119  git status
+  120  git ls-files
+  121  ls
+  122  git rm --cached kush.txt
+  123  ls
+  124  git ls-files
+  125  git status
+  126  git commit -m "deleted kush.txt file"
+  127  git status
+  128  ls
+  129  git ls-files
+  130  vi .gitignore
+  131  git add .gitignore
+  132  got coomit -m "adding .gitignore file"\
+  133  got coomit -m "adding .gitignore file"
+  134  git coomit -m "adding .gitignore file"
+  135  git commit -m "adding .gitignore file"
+  136  git status
+  137  ls
+  138  git ls-files
+  139  ls
+  140  vi kush.txt
+  141  git diff kush.txt
+  142  git ls-files
+  143  ls
+  144  vi teat1.txt 
+  145  git diff teat1
+  146  git diff teat1.txt 
+  147  git commit -a -m "adding"
+  148  git status
+  149  git checkout -b b1 master
+  150  git branch
+  151  ls
+  152  vi mahesh.txt
+  153  git add mahesh.txt 
+  154  git commit -m "adding"
+  155  git status
+  156  git ls-files
+  157  git checkout master
+  158  git ls-files
+  159  git merge b1
+  160  git ls-files
+  161  cdmahesh
+  162  cd mahesh
+  163  find -name mahesh
+  164  cd /
+  165  ls
+  166  locate mahesh
+  167  find mahesh
+  168  find kush.txt
+  169  find -name kush.txt
+  170  cd ./mahesh
+  171  pwd
+  172  ls
+  173  git status
+  174  git remote add origin https://github.com/mrsuraa/test.git
+  175  git remote -v
+  176  git branch
+  177  git push origin master
+  178  git push origin b1
+  179  git remote add origin https://github.com/mrsuraa/test1.git
+  180  git push -u origin mastergit remote add origin https://github.com/mrsuraa/test1.git
+  181  git remote add origin1 https://github.com/mrsuraa/test1.git
+  182  git remote -v
+  183  git push origin1 master
+  184  git pull origin1 master
+  185  ls
+  186  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.reposudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+  187  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.reposudo
+  188  yum install -y wget
+  189  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.reposudo
+  190  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+  191  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+  192  yum install -y java-1.8.0-openjdk
+  193  yum install -y jenkins
+  194  systemctl start jenkins
+  195  systemctl status jenkins
+  196  systemctl enable jenkins
+  197  curl ifconfig.co
+  198  cat /var/lib/jenkins/secret/initialadminpassword
+  199  cat /var/lib/jenkins/secrets/initialAdminPassword
+  200  cd /etc
+  201  ls
+  202  cd sysconfig
+  203  ls
+  204  vi jenkins 
+  205  service jenkins restart
+  206  history
+  207  service jenkins status
+  208  curl ifconfig
+  209  curl ifconfig.co
+  210  cd /tmp
+  211  ll
+  212  cat log.0
+  213  ll
+  214  cd /var/lib/jenkins/workspace/testgit
+  215  ll
+  216  cd /var/lib/jenkins/workspace/gittest1
+  217  ll
+  218  cd ..
+  219  ll
+  220  cd testgit/
+  221  ll
+  222  gitinit
+  223  ll
+  224  exit
+  225  ls
+  226  history
+  227  history > history.txt
